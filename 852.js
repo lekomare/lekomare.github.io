@@ -16,6 +16,9 @@ var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 var cube = new THREE.Mesh(geometry, material); // mesh is an object that takes a geometry, and applies a material to it
 scene.add(cube); // added to the coordinates (0,0,0)
 
+//create a blue LineBasicMaterial
+var material = new THREE.LineBasicMaterial({ color: 0x0000ff });
+
 function animate() {
   requestAnimationFrame(animate);
 
